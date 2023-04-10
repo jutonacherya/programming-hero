@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        @keyframes sliding{
+          from{
+          background-color:brown;
+          left: 0px;
+          }To{
+         left: 400px;
+           background-color: blue;
+          }
+        }
+        .outer{
+            width: 500px;
+            height: 500px;
+            background-color: rgb(6, 1, 10);
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            background-color: rgb(230, 221, 221);
+            position: relative;
+            animation:sliding 3s ease-in-out 0.5s 5 alternate;
+            animation-play-state: running;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="box"></div>
+    </div>
+
+</body>
+</html>
