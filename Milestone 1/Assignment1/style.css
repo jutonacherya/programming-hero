@@ -1,0 +1,151 @@
+.banner{
+    height: 750px;;
+    width:auto;
+    background-image: url("banner/banner3.png");
+    }
+    .banner2{
+    background-image: url("image/person.png");
+      height: 700px;
+      width: auto;
+      background-repeat: no-repeat;
+      margin: 60px;
+      display: flex;
+      justify-content: space-between;
+      
+    }
+    .div1{
+    text-align:right;
+    padding-right: 140px;
+    padding-top: 200px;
+    
+
+    }
+.tittle1{
+font-weight: 800;
+   font-size: 50px;
+   color: white;    
+}
+.tittle2{
+color: white;
+
+}
+.main-tittle1{
+color:black;
+font-size: 40px;
+font-weight: 800;
+font-weight: bolder;
+}
+.main-tittle2{
+
+    color: gray;
+    
+}
+.main-div{
+    
+    margin:auto;
+    padding-left: 350px;
+    padding-top: 180px;
+    
+}
+.button1{
+    font-weight: bolder;
+    color: rgb(5, 133, 133);
+height: 50px;
+width: 129px;
+background-color:white;
+border-color: white;
+border-radius: 5px;
+}
+.section-tittle1{
+    text-align: center;
+    font-size: 40px;
+
+}
+.section-div{
+     background-color:white;
+    height: 250px;
+    width: 500px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    padding:0;
+}
+.fieldset{
+
+    height: 300px;
+    width: auto;
+    border-color: rgb(23, 70, 225);
+
+}
+.watch{
+     background-color: black;
+     background-image: url("image/watch.png");
+    height:200px;
+    width: 1000px;
+    margin: center;
+    padding-top: 50px;
+    padding-left: 40px;
+   margin-left: 150px;
+   background-image: linear-gradient(to right rgba(10, 30, 146, 0.52)2), rgba(245, 240, 100, 0.73),
+   url("image/watch.png");
+   opacity: .6;
+   
+     }
+     .watch-h1{
+
+        color: rgb(5, 0, 0);
+         
+     }
+     .watch-button{
+        font-weight: bolder;
+        color: rgb(237, 78, 10);
+    height: 50px;
+    width: 129px;
+    background-color:white;
+    border-color: white;
+    border-radius: 5px;
+    
+
+     }
+     .footer{
+        background-color: black;
+      height: 350px;
+      width: auto;
+      justify-content: space-between;
+      display: flex;
+
+     }
+     .footer-div1{
+        padding-right: 200px;
+        padding-top: 40px;
+     }
+     .footer-div2{
+         padding-left: 200px;
+         padding-top: 40px;
+    
+     }
+     
+     #fname{
+        height: 40px;
+        width: 170px;
+        background-color: black;
+        border-radius: 5px;
+     }
+     .footer-h3{
+      color: white;
+     }
+     .footer-button1{
+        font-weight: bolder;
+        color: rgb(237, 78, 10);
+    height: 50px;
+    width: 129px;
+    background-color:white;
+    border-color: white;
+    border-radius: 5px;
+
+     }
+     ::placeholder { 
+        color: white;
+        opacity: 1;
+     }
+     
